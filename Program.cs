@@ -13,7 +13,10 @@ namespace MvcFriends
     {
         public static void Main(string[] args)
         {
+            //Initial Host
             CreateHostBuilder(args).Build().Run();
+
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
